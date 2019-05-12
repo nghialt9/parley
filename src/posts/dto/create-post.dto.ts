@@ -3,8 +3,3 @@ export class CreatePostDto {
     readonly content: string;
     readonly userId: string;
 }
-
-export class CreateLoginDto {
-    readonly username: string;
-    readonly password: string;
-}
